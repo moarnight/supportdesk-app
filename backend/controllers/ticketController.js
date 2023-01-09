@@ -129,13 +129,13 @@ const updateTicket = asyncHandler(async (req, res) => {
     throw new Error('Not authorized');
   }
 
-  const updatedTciket = await Ticket.findByIdAndUpdate(
+  const updatedTicket = await Ticket.findByIdAndUpdate(
     req.params.id,
     req.body,
     { new: true }
   );
 
-  res.status(200).json(updateTicket);
+  res.status(200).json(updatedTicket);
 });
 
 module.exports = {
