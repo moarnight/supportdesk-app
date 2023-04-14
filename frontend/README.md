@@ -1,3 +1,7 @@
+# Support Desk App
+
+A support ticket system app that allows users to register, log in, view and create tickets as well as leave notes on the tickets. Built with MERN stack.
+
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
